@@ -10,10 +10,7 @@ right: 0;
 top: 0;
 z-index: 0;
 overflow-y: hidden;
-background-color: linear-gradient(108deg, 
-rgba(1,147,86,1) 0%,
-rgba(10,201,122,1) 100%
-);
+background-color: grey;
 `;
 
 export const FormWrap = styled.div`
@@ -53,7 +50,8 @@ justify-content: center;
 }
 `
 export const Form = styled.form`
-background: #010101;
+background: rgba(255, 255, 255, 0.1);
+box-shadow:1px 1px 10px rgba(0, 0, 0, 0.7);
 max-width: 400px;
 height: auto;
 width: 100%;
@@ -69,7 +67,7 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.9);
 }
 `;
 
-export const FormH1 = styled.h1`
+export const FormH1 = styled.h1`font-family: 'Girassol', cursive;
 margin-bottom: 40px;
 color: #fff;
 font-size: 20px;

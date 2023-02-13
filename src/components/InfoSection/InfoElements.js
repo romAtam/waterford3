@@ -1,6 +1,6 @@
 // import { MdOutlineMaximize, MdSignalCellularConnectedNoInternet2Bar } from 'react-icons/md';
 import styled from 'styled-components'
-import hair from "../../images/hair.jpg"
+
 export const InfoContainer = styled.div`
  color: #000;
  background: #FFE1E1 ;
@@ -37,8 +37,8 @@ export const InfoRow = styled.div`
  }
  ` 
 export const Column1 = styled.div`
- margin-bottom: 15px; 
-  padding: 0 15px;
+ margin-bottom: 1px; 
+  padding: 1px 15px;
   grid-area: col1;
   background:"grey";
 `
@@ -73,7 +73,7 @@ line-height: 1.1;
 font-weight: 600;
 font-family: 'Encode Sans', sans-serif;
 
-font-family: 'Sacramento', cursive;
+/* font-family: 'Sacramento', cursive; */
 color: ${({lightText}) => (lightText ? 'grey' : 
 'grey')};
 
@@ -95,19 +95,23 @@ font-family: 'Girassol', cursive;
 export const BtnWrap = styled.div`
 display: flex;
 justify-content: flex-start;
+
+
 `
 
 export const ImgWrap = styled.div`
 max-width: 555px;
 height: 100%;
+overflow: hidden;
 border-radius:10px;
 box-shadow:1px 1px 10px 1px #062925;
 `
 
 export const Img = styled.img`
 width: 100%;
+max-height:500px;
 height: 100%;
 margin: 0 0 10px 0;
 padding-right:0;
-border-radius:10px;
+
 `

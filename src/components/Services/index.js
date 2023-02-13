@@ -1,9 +1,9 @@
 import React from 'react'
 import Icon2 from '../../images/ban.jpeg'
 import Icon1 from '../../images/pexel.jpeg';
-import Icon3 from '../../images/neils1.jpeg';
-import Icon4 from '../../images/book.jpeg';
-import Icon5 from '../../images/hair3.jpeg';
+import Icon3 from '../../images/maki.jpeg';
+import Icon4 from '../../images/sofiia.jpeg';
+import Icon5 from '../../images/glas.jpeg';
 import Icon6 from '../../images/pink.jpeg';
 import {
     ServicesContainer,

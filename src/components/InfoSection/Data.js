@@ -1,6 +1,6 @@
 import image1 from "../../images/svg-1.svg"
-import image2 from "../../images/girl.jpeg"
-import image3 from "../../images/face.png"
+import image2 from "../../images/negr.jpeg"
+import image3 from "../../images/cosmo.webp"
 export const homeObjOne = {
     id: 'signup',
     lightBg: false,
@@ -23,10 +23,10 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Our gallery',
+    topLine: 'Manicure',
     headline: '',
     description: 'Above everything we want to give you an experience that leaves you feeling fabulous and confident leaving our salon.',
-    buttonLabel: 'Learn More',
+    buttonLabel: 'BOOK ONLINE',
     imgStart: true,
     img: image2,
     alt: 'Piggybank',
@@ -40,10 +40,10 @@ export const homeObjThree = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'the brow lounge',
-    headline: 'We offer a prebonded keratin method a tape in system and clip in services.',
-    description: 'The Honeycomb are known for there exquisite wedding styling and bridal care and this is something we look forward to accommodating you with for your special day.',
-    buttonLabel: 'Get Started',
+    topLine: 'the brow lounge shop',
+    headline: ' Get 15% off your first order',
+    description: 'From body care to self care, we’ve got plenty of wellbeing products to choose',
+    buttonLabel: 'SHOP NOW',
     imgStart: false,
     img: image3,
     alt: 'Paper',

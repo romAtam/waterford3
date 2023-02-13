@@ -53,16 +53,19 @@ export const SidebarLink = styled(LinkS)`
  justify-content: center;
  font-size: 1.5rem;
  text-decoration: none;
+ box-shadow:1px -1px 5px 1px #000000;
  list-style: none;
  transition: 0.2s ease-in-out;
+ text-shadow:3px 5px 2px black;
  text-decoration: none;
  color: wheat;
  letter-spacing:3px;
  cursor: pointer;
  font-family: 'Girassol', cursive;
  &:hover {
-    color: #01bf71;
+    color: orange;
     transition: 0.2s ease-in-out;
+    box-shadow:1px -1px 5px 1px grey;
  }
 `;
 
@@ -75,7 +78,7 @@ export const SidebarRoute = styled(LinkR)`
 border-radius: 40px;
 background: transparent;
 white-space: nowrap;
-padding: 16px 64px;
+padding: 1px 34px;
 color: wheat;
 font-size: 36px;
 outline: none;
@@ -83,12 +86,15 @@ border: none;
 cursor: pointer;
 transition: all 0.2s ease-in-out;
 text-decoration: none;
+border-top: 1px solid grey;
 font-family: 'Sacramento', cursive;
-box-shadow: 0px 1px 1px blue;
+box-shadow: 0px 1px 11px blue;
 &:hover{
-    transition: all 0.2s ease-in-out;
-   box-shadow: 0px 1px 1px blue;
-    color: wheat;
+    transition: all 1.8s ease-in-out;
+   box-shadow: none;
+    color: yellow;
+ 
+   border: none; border-top:1px solid red;
 
 }
 `;

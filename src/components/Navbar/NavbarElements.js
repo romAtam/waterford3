@@ -32,7 +32,7 @@ max-width: 1100px;
 `
 
 export const NavLogo = styled(LinkR)`
-color: gray;
+color: orange;
 justify-self: flex-start;
 cursor: pointer;
 font-size: 1.7rem;
@@ -117,7 +117,7 @@ align-items:center;
     display: none;  
 }
 `
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled(LinkR  )`
 border-radius: 1px;
 background: transparent;
 white-space: nowrap;
@@ -128,7 +128,7 @@ font-size: 16px;
 outline: none;
 border: none;
 cursor: pointer;
-transition: all 0.2 ease-in-out;
+//transition: all 0.2 ease-in-out;
 text-decoration: none;
 font-family: 'Encode Sans', sans-serif;
 box-shadow: 1px 1px 2px 1px blue;

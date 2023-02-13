@@ -9,8 +9,6 @@ justify-content: center;
 align-items: center;
 background: #FFE1E1 ;
 background-size: cover;
-border-top: 10px solid black;
-border-bottom: 10px solid black;
 box-shadow: 1px 10px 10px 1px rgba(0,0,0,1);
 scroll-behavior: smooth;
  @media screen and (max-width: 768px){

@@ -67,8 +67,9 @@ color: pink;
 opacity: 0.8;
 font-size: 48px;
 text-align: center;
+//font-family: 'Sacramento', cursive;
 
-font-family: 'Girassol', cursive;
+
 @media screen and (max-width: 768px){
 font-size: 40px;
 }
@@ -85,10 +86,10 @@ font-size: 36px;
 letter-spacing:2px;
 text-shadow: black 1px 0 10px;
 text-align: center;
+font-family: 'Girassol', cursive;
 max-width: 600px;
 color: white;
 opacity: 0.8;
-font-family: 'Sacramento', cursive;
 
 @media screen and (max-width: 768px){
 font-size: 24px;

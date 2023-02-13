@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 // import { Button } from 'react-scroll';
-import Video from '../../videos/blue.mp4';
+
 import { Button } from '../ButtonElement';
 
 import { 
@@ -33,13 +33,13 @@ const HeroSection = ({vido}) => {
         
       </HeroBg>
       <HeroContent>
-        <HeroH1>The Brow Lounge</HeroH1>
+        <HeroH1>Browbar services in Waterford</HeroH1>
         <HeroP>
-        The Brow Lounge is a new chic Beauty Salon located behind the Crystal Lesuire Centre
+        Professional eyebrow care
         </HeroP>
         <HeroBtnWrapper>
             <Button 
-            to='signup' onMouseEnter = {onHover}
+            to='/signin' onMouseEnter = {onHover}
             onMouseLeave={onHover}
             primary='true'
             dark='true'
@@ -49,7 +49,7 @@ const HeroSection = ({vido}) => {
             exact='true' 
             offse={-80}
             >
-                Get started {hover ? <ArrowForward /> : <ArrowRight /> }
+                BOOK ONLINE {hover ? <ArrowForward /> : <ArrowRight /> }
             </Button>
         </HeroBtnWrapper>
       </HeroContent>

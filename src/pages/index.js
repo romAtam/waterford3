@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
 import Services from '../components/Services'
-import Video1 from '../images/lash.mp4';
+import Video1 from '../videos/video.mp4';
 import { homeObjOne,
          homeObjTwo,
          homeObjThree ,
