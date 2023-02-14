@@ -33,7 +33,7 @@ const HeroSection = ({vido}) => {
         
       </HeroBg>
       <HeroContent>  
-  
+  <HeroH1>prices</HeroH1>
      <HeroBtnWrapper>
             <Button 
             to='/signin' onMouseEnter = {onHover}
