@@ -9,6 +9,8 @@ import Video1 from '../videos/video.mp4';
 import { homeObjOne,
          homeObjTwo,
          homeObjThree ,
+         objone,
+         objtwo,
 } from '../components/InfoSection/Data';
 
 
@@ -24,9 +26,9 @@ const Home = () => {
       <Sidebar is0pen={is0pen} toggle={toggle}/>
       <Navbar toggle={toggle} /> 
         <HeroSection vido={Video1}/>
-       <Services/>  
+       <Services {...objtwo}/>  
          <InfoSection {...homeObjThree}/> 
-         
+         <Services {...objone}/>  
             
     
        <InfoSection {...homeObjTwo}/>  

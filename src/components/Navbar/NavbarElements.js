@@ -124,7 +124,7 @@ white-space: nowrap;
 padding: 0px 22px;
 border-radius:15px;
 color: gray;
-font-size: 16px;
+font-size: 20px;
 outline: none;
 border: none;
 cursor: pointer;

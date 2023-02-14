@@ -8,7 +8,7 @@ opacity: 0.9;
 white-space: nowrap;
 padding: ${({big}) => (big ? '14px 48px': '12px 30px')};
 
-font-size : ${({fontBig}) => (fontBig ? '20px': '16px')};
+font-size : ${({fontBig}) => (fontBig ? '20px': '18px')};
 outline: none;
 border: none;
 font-weight:100;
@@ -20,8 +20,10 @@ box-shadow: 2px  1px 3px 1px rgba(0, 0, 0,1);
 align-items: center;
 transition: all 0.2s ease-in-out;
 letter-spacing:2px; 
- background: ${({primary}) => (primary ? `rgba(255,165,0,0.5)` :'orange')}; ;
-    color:white;
+width:100%;
+box-shadow:2px 1px 3px 1px rgba(0, 0, 0,1);
+ background: ${({primary}) => (primary ? `rgba(0,0,0,0.3)` :'grey')}; ;
+    color:lightgrey;
 &:hover{
     transition: all 0.2s ease-in-out;
     background: ${({ primary }) => (primary ? 'orange' : 'lightgrey')};

@@ -32,11 +32,68 @@ const HeroSection = ({vido}) => {
         <VideoBg autoPlay loop muted src= {vido} type='video/mp4'/>
         
       </HeroBg>
-      <HeroContent>
-        <HeroH1>Browbar services in Waterford</HeroH1>
-        <HeroP>
-        Professional eyebrow care
-        </HeroP>
+      <HeroContent>  
+  
+     <HeroBtnWrapper>
+            <Button 
+            to='/signin' onMouseEnter = {onHover}
+            onMouseLeave={onHover}
+            primary='true'
+            dark='true'
+            smooth={true} 
+            duration={500} 
+            spy={true} 
+            exact='true' 
+            offse={-80}
+            >
+           facials {hover ? <ArrowForward /> : <ArrowRight /> }
+            </Button>
+        </HeroBtnWrapper>    
+         <HeroBtnWrapper>
+            <Button 
+            to='/signin' onMouseEnter = {onHover}
+            onMouseLeave={onHover}
+            primary='true'
+            dark='true'
+            smooth={true} 
+            duration={500} 
+            spy={true} 
+            exact='true' 
+            offse={-80}
+            >
+            threading {hover ? <ArrowForward /> : <ArrowRight /> }
+            </Button>
+        </HeroBtnWrapper>    
+         <HeroBtnWrapper>
+            <Button 
+            to='/signin' onMouseEnter = {onHover}
+            onMouseLeave={onHover}
+            primary='true'
+            dark='true'
+            smooth={true} 
+            duration={500} 
+            spy={true} 
+            exact='true' 
+            offse={-80}
+            >
+              waxing {hover ? <ArrowForward /> : <ArrowRight /> }
+            </Button>
+        </HeroBtnWrapper>   
+      <HeroBtnWrapper>
+            <Button 
+            to='/signin' onMouseEnter = {onHover}
+            onMouseLeave={onHover}
+            primary='true'
+            dark='true'
+            smooth={true} 
+            duration={500} 
+            spy={true} 
+            exact='true' 
+            offse={-80}
+            >
+          lashes {hover ? <ArrowForward /> : <ArrowRight /> }
+            </Button>
+        </HeroBtnWrapper>
         <HeroBtnWrapper>
             <Button 
             to='/signin' onMouseEnter = {onHover}
@@ -49,9 +106,25 @@ const HeroSection = ({vido}) => {
             exact='true' 
             offse={-80}
             >
-                BOOK ONLINE {hover ? <ArrowForward /> : <ArrowRight /> }
+               brows {hover ? <ArrowForward /> : <ArrowRight /> }
             </Button>
         </HeroBtnWrapper>
+        <HeroBtnWrapper>
+            <Button 
+            to='/signin' onMouseEnter = {onHover}
+            onMouseLeave={onHover}
+            primary='true'
+            dark='true'
+            smooth={true} 
+            duration={500} 
+            spy={true} 
+            exact='true' 
+            offse={-80}
+            >
+               mani/pedi{hover ? <ArrowForward /> : <ArrowRight /> }
+            </Button>
+        </HeroBtnWrapper>
+      
       </HeroContent>
     </HeroContainer>
   )

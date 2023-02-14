@@ -5,7 +5,7 @@ export const HeroContainer = styled.div`
 background:#062925;
 display: flex;
 justify-content: center;
-align-items:  center;
+align-items:  top;
 padding: 0 30px;
 height: 800px;
 position: relative;
@@ -56,7 +56,7 @@ export const HeroContent = styled.div`
 z-index: 3;
 max-width: 1200px;
 position: absolute;
-padding: 8px 24px;
+padding: 1px 24px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -66,7 +66,7 @@ export const HeroH1 = styled.h1`
 color: pink;
 opacity: 0.8;
 font-size: 48px;
-text-align: center;
+text-align:center;
 //font-family: 'Sacramento', cursive;
 
 
@@ -103,6 +103,7 @@ font-size: 24px;
 export const HeroBtnWrapper = styled.div`
 margin-top: 32px;
 display: flex;
+width:100%;
 flex-direction: column;
 align-items: center;
 `

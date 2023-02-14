@@ -41,20 +41,20 @@ const Navbar = ({ toggle }) => {
            </MobileIcon>
            <NavMenu>
             <NavItem>
-                <NavLinks to='about' smooth={true} duration={500} spy={true} exact='true' offse={-80}>products</NavLinks>
+                <NavLinks to='offers' smooth={true} duration={500} spy={true} exact='true' offse={-80}>offers</NavLinks>
             </NavItem>
             <NavItem>
-                <NavLinks to='services' smooth={true} duration={500} spy={true} exact='true' offse={-80}>offers</NavLinks>
+                <NavLinks to='services' smooth={true} duration={500} spy={true} exact='true' offse={-80}>services</NavLinks>
             </NavItem>
             <NavItem>
-                <NavLinks to='home' smooth={true} duration={500} spy={true} exact='true' offse={-80}>brow</NavLinks>
+                <NavLinks to='home' smooth={true} duration={500} spy={true} exact='true' offse={-80}>prices</NavLinks>
             </NavItem>
             <NavItem>
-                <NavLinks to='signup' smooth={true} duration={500} spy={true} exact='true' offse={-80}>nails</NavLinks>
+                <NavLinks to='signup' smooth={true} duration={500} spy={true} exact='true' offse={-80}>team</NavLinks>
             </NavItem>
            </NavMenu>
            <NavBtn>
-            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+            <NavBtnLink to='/signin'> online shop</NavBtnLink>
            </NavBtn>
         </NavbarContainer>
     </Nav>

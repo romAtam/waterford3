@@ -79,8 +79,8 @@ border-radius: 40px;
 background: transparent;
 white-space: nowrap;
 padding: 1px 34px;
-color: wheat;
-font-size: 36px;
+
+font-size: 26px;
 outline: none;
 border: none;
 cursor: pointer;
@@ -89,12 +89,13 @@ text-decoration: none;
 border-top: 1px solid grey;
 font-family: 'Sacramento', cursive;
 box-shadow: 0px 1px 11px blue;
+color: #FFC0CB ;
 &:hover{
     transition: all 1.8s ease-in-out;
    box-shadow: none;
-    color: yellow;
+    color: #FFC0CB ;
  
    border: none; border-top:1px solid red;
-
+color: grey;
 }
 `;

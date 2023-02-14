@@ -1,4 +1,5 @@
 import React from 'react'
+import { animateScroll as scroll } from 'react-scroll';
 import { SidebarContainer,
   Icon, 
   CloseIcon,
@@ -8,23 +9,27 @@ import { SidebarContainer,
    SideBtnWrap, 
    SidebarRoute  
   } from './SidebarElements'
-
+import { NavLogo } from '../Navbar/NavbarElements'
 const Sidebar = ({is0pen, toggle}) => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+};
   return (
     <SidebarContainer is0pen={is0pen} onClick={toggle}>
       <Icon onClick ={toggle}>
         <CloseIcon />
       </Icon>
       <SidebarWrapper>
+      <NavLogo to='/' onClick={toggleHome}>The Brow Lounge</NavLogo>
         <SidebarMenu>
-          <SidebarLink to='about' onClick={toggle}>products</SidebarLink>
-          <SidebarLink to='services' onClick={toggle}>offers</SidebarLink>
-          <SidebarLink to='home' onClick={toggle}>make up</SidebarLink>
-          <SidebarLink to='signup' onClick={toggle}>nails</SidebarLink>
+          <SidebarLink to='offers' onClick={toggle}>winter offers</SidebarLink>
+          <SidebarLink to='services' onClick={toggle}>main our services</SidebarLink>
+          <SidebarLink to='home' onClick={toggle}>price list</SidebarLink>
+          <SidebarLink to='signup' onClick={toggle}>book to specialist</SidebarLink>
           
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to='/signin'>Sign In</SidebarRoute>
+          <SidebarRoute to='/signin'>go to online shop</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

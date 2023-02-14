@@ -1,6 +1,16 @@
 import image1 from "../../images/svg-1.svg"
 import image2 from "../../images/negr.jpeg"
 import image3 from "../../images/cosmo.webp"
+export const objone={
+   one: "offer name",
+   id: 'offers',
+   name: "Offers",
+}
+export const objtwo={
+    one: "offer name",
+    id: 'services',
+    name: "services",
+ }
 export const homeObjOne = {
     id: 'signup',
     lightBg: false,
@@ -23,10 +33,10 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Manicure',
+    topLine: 'Laura',
     headline: '',
-    description: 'Above everything we want to give you an experience that leaves you feeling fabulous and confident leaving our salon.',
-    buttonLabel: 'BOOK ONLINE',
+    description: 'Senior Skincare Therapist and Brow Artist',
+    buttonLabel: 'BOOK TO SPECIALIST',
     imgStart: true,
     img: image2,
     alt: 'Piggybank',

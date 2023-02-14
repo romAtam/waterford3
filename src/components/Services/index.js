@@ -14,39 +14,40 @@ import {
     ServicesH2,
     ServicesP
 } from './ServicesElement'
-const Services = () => {
+const Services = (props) => {
+const n=props.one
   return (
-    <ServicesContainer id="services">
-        <ServicesH1> Winter Blues offers</ServicesH1>
+    <ServicesContainer id={props.id}>
+        <ServicesH1>{props.name}</ServicesH1>
         <ServicesWrapper>
             <ServicesCard>
                 <ServicesIcon src={Icon1}/>
-                <ServicesH2>The best service</ServicesH2>
+                <ServicesH2>{n}</ServicesH2>
                 <ServicesP>the best services in Waterford</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon2}/>
-                <ServicesH2>The best price</ServicesH2>
-                <ServicesP>Reasonable price for beginners</ServicesP>
+                <ServicesH2>Mani/Pedi</ServicesH2>
+                <ServicesP>Reasonable price </ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon3}/>
-                <ServicesH2>Happy people</ServicesH2>
+                <ServicesH2>Facials</ServicesH2>
                 <ServicesP>Everyone is happy with the result</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon4}/>
-                <ServicesH2>Happy people</ServicesH2>
+                <ServicesH2>Waxing</ServicesH2>
                 <ServicesP>Everyone is happy with the result</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon5}/>
-                <ServicesH2>Happy people</ServicesH2>
+                <ServicesH2>Lashes</ServicesH2>
                 <ServicesP>Everyone is happy with the result</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon6}/>
-                <ServicesH2>Happy people</ServicesH2>
+                <ServicesH2>Threading</ServicesH2>
                 <ServicesP>Everyone is happy with the result</ServicesP>
             </ServicesCard>
         </ServicesWrapper>
