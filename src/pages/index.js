@@ -28,7 +28,7 @@ const Home = () => {
         <HeroSection vido={Video1}/>
        <Services {...objtwo}/>  
          <InfoSection {...homeObjThree}/> 
-         <Services {...objone}/>  
+      
             
     
        <InfoSection {...homeObjTwo}/>  

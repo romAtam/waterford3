@@ -1,10 +1,12 @@
 import React from 'react'
-import Icon2 from '../../images/ban.jpeg'
-import Icon1 from '../../images/pexel.jpeg';
-import Icon3 from '../../images/maki.jpeg';
-import Icon4 from '../../images/sofiia.jpeg';
-import Icon5 from '../../images/glas.jpeg';
-import Icon6 from '../../images/pink.jpeg';
+import Icon2 from '../../images/lashes.jpeg'
+import Icon1 from '../../images/brows.jpeg';
+import Icon3 from '../../images/skins.jpeg';
+import Icon4 from '../../images/waxings.jpeg';
+import Icon5 from '../../images/nails1.jpeg';
+import Icon6 from '../../images/make-up.jpg';
+import Icon7 from '../../images/malegrooming.jpeg';
+import Icon8 from '../../images/tans.jpeg';
 import {
     ServicesContainer,
     ServicesH1,
@@ -18,21 +20,21 @@ const Services = (props) => {
 const n=props.one
   return (
     <ServicesContainer id={props.id}>
-        <ServicesH1>{props.name}</ServicesH1>
+        <ServicesH1>our services</ServicesH1>
         <ServicesWrapper>
             <ServicesCard>
                 <ServicesIcon src={Icon1}/>
-                <ServicesH2>{n}</ServicesH2>
+                <ServicesH2>brow service</ServicesH2>
                 <ServicesP>the best services in Waterford</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon2}/>
-                <ServicesH2>Mani/Pedi</ServicesH2>
+                <ServicesH2>eyes</ServicesH2>
                 <ServicesP>Reasonable price </ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon3}/>
-                <ServicesH2>Facials</ServicesH2>
+                <ServicesH2>skin</ServicesH2>
                 <ServicesP>Everyone is happy with the result</ServicesP>
             </ServicesCard>
             <ServicesCard>
@@ -42,12 +44,22 @@ const n=props.one
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon5}/>
-                <ServicesH2>Lashes</ServicesH2>
+                <ServicesH2>nails</ServicesH2>
+                <ServicesP>Everyone is happy with the result</ServicesP>
+            </ServicesCard>
+            <ServicesCard>
+                <ServicesIcon src={Icon8}/>
+                <ServicesH2>tans</ServicesH2>
                 <ServicesP>Everyone is happy with the result</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon6}/>
-                <ServicesH2>Threading</ServicesH2>
+                <ServicesH2>make-up</ServicesH2>
+                <ServicesP>Everyone is happy with the result</ServicesP>
+            </ServicesCard>
+            <ServicesCard>
+                <ServicesIcon src={Icon7}/>
+                <ServicesH2>male grooming</ServicesH2>
                 <ServicesP>Everyone is happy with the result</ServicesP>
             </ServicesCard>
         </ServicesWrapper>

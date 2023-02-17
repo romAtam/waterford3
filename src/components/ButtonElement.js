@@ -23,7 +23,7 @@ letter-spacing:2px;
 width:100%;
 box-shadow:2px 1px 3px 1px rgba(0, 0, 0,1);
  background: ${({primary}) => (primary ? `rgba(0,0,0,0.3)` :'grey')}; ;
-    color:lightgrey;
+    color:wheat;
 &:hover{
     transition: all 0.2s ease-in-out;
     background: ${({ primary }) => (primary ? 'orange' : 'lightgrey')};

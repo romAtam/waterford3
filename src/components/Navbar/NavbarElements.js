@@ -32,20 +32,20 @@ max-width: 1100px;
 `
 
 export const NavLogo = styled(LinkR)`
-color: orange;
+color: wheat;
 justify-self: flex-start;
 cursor: pointer;
-font-size: 1.7rem;
+font-size: 2rem;
 align-self:center ;
 margin-left: 24px;
 text-decoration: none;
 font-family: 'Encode Sans', sans-serif;
 transition:all 0.9s ease-in-out;
-font-family: 'Sacramento', cursive;
+font-family: 'Girassol', cursive;
 /* font-family: 'Encode Sans', sans-serif;
 font-family: 'Pacifico', cursive; */
 &:hover{
-    color:wheat;
+    color:orange;
 }
 `
 
@@ -131,9 +131,10 @@ cursor: pointer;
 //transition: all 0.2 ease-in-out;
 text-decoration: none;
 font-family: 'Encode Sans', sans-serif;
-box-shadow: 1px 1px 2px 1px blue;
-
+box-shadow: 0px 0px 4px 4px wheat;
+color:wheat;
 font-family: 'Sacramento', cursive;
+font-family: 'Girassol', cursive;
 &:hover{
     transition: all 0.2s ease-in-out;
     box-shadow: 1px 1px 6px 1px blue;

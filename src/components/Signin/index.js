@@ -13,6 +13,7 @@ import{
 } from './SigninElements';
 import { animateScroll as scroll } from 'react-scroll';
 import { NavLogo } from '../Navbar/NavbarElements';
+import Services from '../Services';
 const SignIn = () => {
   const toggleHome = () => {
     scroll.scrollToTop();
@@ -22,12 +23,7 @@ const SignIn = () => {
     <>
      <Container>
      <NavLogo to='/' onClick={toggleHome}>The Brow Lounge</NavLogo>
-        <FormWrap>
-            <Icon to='/'dalla></Icon>
-            <FormContent>
-            SHOP
-            </FormContent>
-        </FormWrap>
+     <Services />  
      </Container> 
     </>
   )

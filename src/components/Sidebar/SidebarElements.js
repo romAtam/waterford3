@@ -15,7 +15,7 @@ top: 0;
 left:0;
 transition: 0.3s ease-in-out;
 opacity: ${({is0pen}) => (is0pen? '100%' : '0')};
-top: ${({is0pen}) => (is0pen? '0': '-100%')}
+top: ${({is0pen}) => (is0pen? '0': '-180%')}
 `;
 
 export const CloseIcon = styled(FaTimes)`

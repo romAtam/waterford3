@@ -5,7 +5,7 @@ export const HeroContainer = styled.div`
 background:#062925;
 display: flex;
 justify-content: center;
-align-items:  top;
+align-items:  center;
 padding: 0 30px;
 height: 800px;
 position: relative;
@@ -103,7 +103,7 @@ font-size: 24px;
 export const HeroBtnWrapper = styled.div`
 margin-top: 32px;
 display: flex;
-width:100%;
+width:50%;
 flex-direction: column;
 align-items: center;
 `

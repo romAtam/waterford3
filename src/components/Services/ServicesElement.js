@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 export const ServicesContainer = styled.div`
-height: 1200px;
+height: 1500px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -12,7 +12,7 @@ background-size: cover;
 box-shadow: 1px 10px 10px 1px rgba(0,0,0,1);
 scroll-behavior: smooth;
  @media screen and (max-width: 768px){
-    height: 1950px;
+    height: 2500px;
   
 
 }
@@ -64,7 +64,7 @@ transition: all 0.2s ease-in-out;
 
 export const ServicesIcon = styled.img`
 height: 160px;
-width: 160px;
+width: 210px;
 margin-bottom: 10px;
 border-radius:18px;
 box-shadow: 0px 1px 4px 1px grey;
@@ -80,7 +80,7 @@ color: grey;
 margin-bottom: 64px;
 font-family: 'Encode Sans', sans-serif;
 
-font-family: 'Sacramento', cursive;
+font-family: 'Girassol', cursive;
 @media screen and (max-width: 480px){
     font-size: 2rem;
 }

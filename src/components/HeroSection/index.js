@@ -33,7 +33,7 @@ const HeroSection = ({vido}) => {
         
       </HeroBg>
       <HeroContent>  
-  <HeroH1>prices</HeroH1>
+  <HeroP>PAINLESS THREADING WITH THERAPISTS SPECIALISING IN NATURAL BEAUTY CARE</HeroP>
      <HeroBtnWrapper>
             <Button 
             to='/signin' onMouseEnter = {onHover}
@@ -46,85 +46,10 @@ const HeroSection = ({vido}) => {
             exact='true' 
             offse={-80}
             >
-           facials {hover ? <ArrowForward /> : <ArrowRight /> }
+          treatment {hover ? <ArrowForward /> : <ArrowRight /> }
             </Button>
         </HeroBtnWrapper>    
-         <HeroBtnWrapper>
-            <Button 
-            to='/signin' onMouseEnter = {onHover}
-            onMouseLeave={onHover}
-            primary='true'
-            dark='true'
-            smooth={true} 
-            duration={500} 
-            spy={true} 
-            exact='true' 
-            offse={-80}
-            >
-            threading {hover ? <ArrowForward /> : <ArrowRight /> }
-            </Button>
-        </HeroBtnWrapper>    
-         <HeroBtnWrapper>
-            <Button 
-            to='/signin' onMouseEnter = {onHover}
-            onMouseLeave={onHover}
-            primary='true'
-            dark='true'
-            smooth={true} 
-            duration={500} 
-            spy={true} 
-            exact='true' 
-            offse={-80}
-            >
-              waxing {hover ? <ArrowForward /> : <ArrowRight /> }
-            </Button>
-        </HeroBtnWrapper>   
-      <HeroBtnWrapper>
-            <Button 
-            to='/signin' onMouseEnter = {onHover}
-            onMouseLeave={onHover}
-            primary='true'
-            dark='true'
-            smooth={true} 
-            duration={500} 
-            spy={true} 
-            exact='true' 
-            offse={-80}
-            >
-          lashes {hover ? <ArrowForward /> : <ArrowRight /> }
-            </Button>
-        </HeroBtnWrapper>
-        <HeroBtnWrapper>
-            <Button 
-            to='/signin' onMouseEnter = {onHover}
-            onMouseLeave={onHover}
-            primary='true'
-            dark='true'
-            smooth={true} 
-            duration={500} 
-            spy={true} 
-            exact='true' 
-            offse={-80}
-            >
-               brows {hover ? <ArrowForward /> : <ArrowRight /> }
-            </Button>
-        </HeroBtnWrapper>
-        <HeroBtnWrapper>
-            <Button 
-            to='/signin' onMouseEnter = {onHover}
-            onMouseLeave={onHover}
-            primary='true'
-            dark='true'
-            smooth={true} 
-            duration={500} 
-            spy={true} 
-            exact='true' 
-            offse={-80}
-            >
-               mani/pedi{hover ? <ArrowForward /> : <ArrowRight /> }
-            </Button>
-        </HeroBtnWrapper>
-      
+       
       </HeroContent>
     </HeroContainer>
   )
