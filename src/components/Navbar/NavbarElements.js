@@ -48,6 +48,11 @@ font-family: 'Pacifico', cursive; */
     color:orange;
 }
 `
+export const Logo=styled.img`
+margin-top:5px;
+width:60px;
+height:60px;
+`
 
 export const MobileIcon = styled.div`
 display: none;

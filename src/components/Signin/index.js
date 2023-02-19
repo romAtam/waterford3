@@ -20,12 +20,12 @@ const SignIn = () => {
 };
 
   return (
-    <>
+
      <Container>
      <NavLogo to='/' onClick={toggleHome}>The Brow Lounge</NavLogo>
      <Services />  
      </Container> 
-    </>
+
   )
 }
 

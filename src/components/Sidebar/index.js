@@ -29,7 +29,7 @@ const Sidebar = ({is0pen, toggle}) => {
           
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to='/signin'>go to online shop</SidebarRoute>
+          <SidebarRoute to='/signin'>our team</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

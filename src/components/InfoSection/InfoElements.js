@@ -14,7 +14,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
  display: grid;
   z-index: 1;
-  height: 700px;
+  height: 725px;
   width: 100%;
   overflow: hidden;
   max-width: 1000px;
@@ -47,7 +47,8 @@ export const Column2 = styled.div`
  margin-bottom: 15px; 
   padding: 0 15px;
   grid-area: col2;
-  background:"grey";
+  border-radius: 20px;
+  background:#062925;
   `
 
 export const TextWrapper = styled.div`

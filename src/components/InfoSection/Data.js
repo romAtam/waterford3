@@ -1,6 +1,6 @@
 import image1 from "../../images/svg-1.svg"
 import image2 from "../../images/negr.jpeg"
-import image3 from "../../images/cosmo.webp"
+import image3 from "../../images/shop.png"
 export const objone={
    one: "offer name",
    id: 'offers',

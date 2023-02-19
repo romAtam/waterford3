@@ -14,6 +14,7 @@ import { homeObjOne,
 } from '../components/InfoSection/Data';
 
 
+
 const Home = () => {
     const [is0pen, setIs0pen] = useState(false);
 
@@ -29,6 +30,7 @@ const Home = () => {
        <Services {...objtwo}/>  
          <InfoSection {...homeObjThree}/> 
        <InfoSection {...homeObjTwo}/>  
+
     <Footer/>
 
     </>
