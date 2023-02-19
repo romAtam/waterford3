@@ -1,12 +1,12 @@
 import React from 'react'
-import Icon2 from '../../images/lashes.jpeg'
+import Icon2 from '../../images/slash.jpeg'
 import Icon1 from '../../images/brows.jpeg';
 import Icon3 from '../../images/skins.jpeg';
-import Icon4 from '../../images/waxings.jpeg';
-import Icon5 from '../../images/nails1.jpeg';
+import Icon4 from '../../images/swax.webp';
+import Icon5 from '../../images/snail.jpeg';
 import Icon6 from '../../images/make-up.jpg';
 import Icon7 from '../../images/malegrooming.jpeg';
-import Icon8 from '../../images/tans.jpeg';
+import Icon8 from '../../images/stan.jpeg';
 import {
     ServicesContainer,
     ServicesH1,

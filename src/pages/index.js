@@ -28,19 +28,7 @@ const Home = () => {
         <HeroSection vido={Video1}/>
        <Services {...objtwo}/>  
          <InfoSection {...homeObjThree}/> 
-      
-            
-    
        <InfoSection {...homeObjTwo}/>  
-    
-    
-    
- 
-
-      
-  
-    
-   
     <Footer/>
 
     </>

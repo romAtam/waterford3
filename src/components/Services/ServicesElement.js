@@ -17,7 +17,7 @@ scroll-behavior: smooth;
 
 }
 @media screen and (max-width: 480px){
-    height: 1950px;
+    height: 2600px;
 }
 `
 

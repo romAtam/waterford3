@@ -36,13 +36,13 @@ const HeroSection = ({vido}) => {
   <HeroP>PAINLESS THREADING WITH THERAPISTS SPECIALISING IN NATURAL BEAUTY CARE</HeroP>
      <HeroBtnWrapper>
             <Button 
-            to='/signin' onMouseEnter = {onHover}
+            to='/treatment' onMouseEnter = {onHover}
             onMouseLeave={onHover}
             primary='true'
             dark='true'
-            smooth={true} 
+            smooth="true"
             duration={500} 
-            spy={true} 
+            spy="true" 
             exact='true' 
             offse={-80}
             >
