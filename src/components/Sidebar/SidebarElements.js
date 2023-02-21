@@ -6,6 +6,7 @@ import {FaTimes} from 'react-icons/fa';
 export const SidebarContainer = styled.aside`
 position: fixed;
 z-index: 999;
+
 width: 100%;
 height: 100%;
 background: #062925;
@@ -87,7 +88,7 @@ cursor: pointer;
 transition: all 0.2s ease-in-out;
 text-decoration: none;
 border-top: 1px solid grey;
-font-family: 'Sacramento', cursive;
+font-family: 'Girassol', cursive;
 box-shadow: 0px 1px 11px blue;
 color: #FFC0CB ;
 &:hover{

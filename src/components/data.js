@@ -1,27 +1,27 @@
 export const data = [
   {
     image: "/avatars/avatar-11.jpeg",
-    name: "Name 1",
+    name: "Claudine",
     testimony:
-      "nenatis tortor non rhrerit justo ac tortor accumsan, nec volutpat tortor scelerisque. ",
+      "Salon Director",
   },
   {
-    image: "/avatars/avatar-11.jpeg",
-    name: "Name 2",
+    image: "/avatars/team2.jpg",
+    name: "Laura",
     testimony:
-      "Lorem ipsum dolor sit aumsan, nec volutpat tortor scelerisque. ",
+      "Senior Skincare Therapist and Brow Artist ",
   },
   {
-    image: "/avatars/avatar-11.jpeg",
-    name: "Name 3",
+    image: "/avatars/team3.jpg",
+    name: "Lana",
     testimony:
-      ". Donec hendrerit justo ac tortor accumsan, nec volutpat tortor scelerisque. ",
+      "Senior Brow and Lash Artist",
   },
   {
-    image: "/avatars/avatar-11.jpeg",
-    name: "Name 4",
+    image: "/avatars/team4.jpg",
+    name: "Greta",
     testimony:
-      " Donec hendrerit justo ac tortor accumsan, nec volutpat tortor scelerisque. ",
+      " Senior Beauty Therapist and Lash & Brow Artist ",
   },
   {
     image: "/avatars/avatar-11.jpeg",

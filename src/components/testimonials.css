@@ -3,7 +3,8 @@
   background: url(../images/back1.jpg);
   background-position: center;
   background-size: cover;
-  padding-top: 3rem;
+  padding-top: 9rem;
+  max-height: 950px;
 }
 
 
@@ -18,9 +19,9 @@
   display: grid;
   text-align: center;
   padding: 1.5rem 1rem;
-  background: #062925;
-  width: 18.75rem;
-  height: 18.75rem;
+  background:rgba(6, 41, 37, 0.8);
+  width: 16.75rem;
+  height: 16.75rem;
   border-radius:30px;
   color:wheat;
   box-shadow:1px 1px 13px 1px cyan;
@@ -32,9 +33,11 @@
 .swiper-slide img {
   display: block;
   width: 12rem;
+  max-height: 140px;
   justify-self: center;
-  border-radius: 50%;
+  border-radius: 10%;
   margin-top: 0.6rem;
+
 }
 
 h5 {
@@ -46,17 +49,18 @@ h5 {
 }
 
 P {
-  color: cyan;
+  color: wheat;
   font-family: 'Girassol', cursive;
 }
 
 /* Quote */
 
 .quote-parent {
-  height: 100vh;
+  height: 70vh;
   width: 100%;
   display: flex;
   align-items: top;
+  padding-bottom: 30px;
   justify-content: center;
 }
 
@@ -64,7 +68,7 @@ P {
   margin-top: 30px;
   height: 200px;
   width: 200px;
-  background: #062925;
+  background:rgba(10, 0, 9, 0.8);
   border-radius: 100px;
   transition: all 0.5s;
 }
@@ -72,7 +76,7 @@ P {
 .quote:hover {
   transform: scale(1.1);
   background-color: #062925;
-  background: #062925;
+  background:rgba(6, 41, 37, 0.6);
   box-shadow: 5px 5px 0px #062925, -5px -5px 0px;
   color: black;
   font-weight: bold;
@@ -94,7 +98,8 @@ P {
 .quote h1 {
   font-family: "Rubik", sans-serif;
   font-family: 'Girassol', cursive;
-  color: #f1faee;
+  letter-spacing: 2px;
+  color:wheat;
   font-weight: bold;
   text-transform: uppercase;
   align-items: center;

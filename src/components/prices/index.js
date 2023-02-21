@@ -1,7 +1,9 @@
 import React from 'react'
 import Item from "./Item"
+import LogImage from "../../images/browlogo.png"
 import { NavLogo } from '../Navbar/NavbarElements';
 import {Navi,Menu,Cont,ArrowLeft} from  "./PricesElements"
+import {Logo} from "../Navbar/NavbarElements"
 import { animateScroll as scroll } from 'react-scroll';
 const data=[{
     name:"brow services",
@@ -47,7 +49,7 @@ const Prices = () => {
         <Cont>
  
         <Navi>
-              <NavLogo to='/' onClick={toggleHome}><ArrowLeft/>back</NavLogo>
+              <NavLogo to='/' onClick={toggleHome}><ArrowLeft/><Logo src={LogImage} alt="logo"/></NavLogo>
         </Navi>
         
           <Menu>

@@ -3,9 +3,9 @@ import { Link as LinkR} from 'react-router-dom'
 import { Link as LinkS} from 'react-scroll'
 
 export const Nav = styled.nav`
-background:${({scrollNav})=>(scrollNav?'rgba(0,0,0,1)':"#062925")};
+background:${({scrollNav})=>(scrollNav?'rgba(0,0,0,0.9)':"rgba(0,0,0,0.7)")};
 height: 80px;
-//margin-top: -80px; 
+margin-top: -80px; 
 display: flex;
 justify-content: center;
 align-items: center;
@@ -123,27 +123,33 @@ align-items:center;
 }
 `
 export const NavBtnLink = styled(LinkR  )`
-border-radius: 1px;
-background: transparent;
+
+background:transparent;
 white-space: nowrap;
 padding: 0px 22px;
-border-radius:15px;
-color: gray;
-font-size: 20px;
+border-radius:14px;
+color: white;
+font-size: 16px;
+letter-spacing: 3px;
 outline: none;
 border: none;
 cursor: pointer;
 //transition: all 0.2 ease-in-out;
 text-decoration: none;
 font-family: 'Encode Sans', sans-serif;
-box-shadow: 0px 0px 4px 4px wheat;
-color:wheat;
+font-weight:100;
+
+border-bottom:1px solid orange;
+
 font-family: 'Sacramento', cursive;
 font-family: 'Girassol', cursive;
 &:hover{
+   
     transition: all 0.2s ease-in-out;
-    box-shadow: 1px 1px 6px 1px blue;
+  box-shadow: 0px 0px 1px 0px cyan; 
     color: wheat;
+    border-bottom:1px solid cyan;
+border-right:none;
 
 }
 `

@@ -12,6 +12,7 @@ import { homeObjOne,
          objone,
          objtwo,
 } from '../components/InfoSection/Data';
+import Testimonials from '../components/Testimonials'
 
 
 
@@ -26,10 +27,12 @@ const Home = () => {
     <>
       <Sidebar is0pen={is0pen} toggle={toggle}/>
       <Navbar toggle={toggle} /> 
+          <Testimonials/>
         <HeroSection vido={Video1}/>
+    
        <Services {...objtwo}/>  
          <InfoSection {...homeObjThree}/> 
-       <InfoSection {...homeObjTwo}/>  
+       {/* <InfoSection {...homeObjTwo}/>   */}
 
     <Footer/>
 

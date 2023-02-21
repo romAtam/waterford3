@@ -46,7 +46,7 @@ const HeroSection = ({vido}) => {
             exact='true' 
             offse={-80}
             >
-          treatment {hover ? <ArrowForward /> : <ArrowRight /> }
+         price-list {hover ? <ArrowForward /> : <ArrowRight /> }
             </Button>
         </HeroBtnWrapper>    
        

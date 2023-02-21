@@ -27,7 +27,7 @@ const Testimonials = () => {
           modifier: 6,
           slideShadows: true,
         }}
-         pagination={true}
+        //  pagination={true}
       >
         {data.map((item, key) => (
           <SwiperSlide key={key}>
@@ -105,9 +105,9 @@ const Testimonials = () => {
       </Swiper> */}
       <div className="quote-parent">
         <div className="quote n-box1 flex-with-center">
-          <h1>Quote?!</h1>
+          <h1>meet our team</h1>
           <div className="quote-content">
-            <p>“ Knowledge is power.” </p>
+            <p>“ wellcome to see you!!!” </p>
           </div>
         </div>
       </div>
