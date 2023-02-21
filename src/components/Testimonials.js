@@ -6,13 +6,13 @@ import "../../node_modules/swiper/modules/pagination/pagination.min.css";
 
 import "./testimonials.css";
 
-import { data } from "./data";
+// import { data } from "./data";
 
 import SwiperCore, { EffectCoverflow, Pagination } from "swiper/core";
 
 SwiperCore.use([EffectCoverflow, Pagination]);
 
-const Testimonials = () => {
+const Testimonials = ({data}) => {
 
   
   return (

@@ -76,10 +76,11 @@ transition:all 0.8s ease-in-out;
 
 export const ServicesH1 = styled.h1`
 font-size: 3rem;
+text-align:center;
 color: grey;
 margin-bottom: 64px;
 font-family: 'Encode Sans', sans-serif;
-
+margin-top:30px;
 font-family: 'Girassol', cursive;
 @media screen and (max-width: 480px){
     font-size: 2rem;

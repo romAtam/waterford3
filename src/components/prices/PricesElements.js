@@ -7,12 +7,12 @@ export const MenuItem=styled.div`
 text-align: center;
 padding:0  10px ;
 background: transparent;
-
+margin: 0 auto;
 `
 export const ItemWraper=styled.div`
 display: flex;  
+margin: 0 auto;
 
-margin:0 30px;
 justify-content: space-between;
 max-width:900px;
 padding: 10px 5px;
@@ -54,11 +54,14 @@ text-shadow:3px 1px 3px black;
 padding-top: 30px;
 letter-spacing: 4px;
 font-size:2rem;
+
 font-family: 'Girassol', cursive !important;
 `
 
 export const Cont=styled.div`
 background-image:url(${Icon2});
+
+
 
 background-position:center;
 background-size: cover;

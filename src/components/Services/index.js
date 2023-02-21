@@ -7,6 +7,8 @@ import Icon5 from '../../images/snail.jpeg';
 import Icon6 from '../../images/make-up.jpg';
 import Icon7 from '../../images/malegrooming.jpeg';
 import Icon8 from '../../images/stan.jpeg';
+import {data1,data2,data3,data4} from "../data"
+import { Swiper, SwiperSlide } from "swiper/react";
 import {
     ServicesContainer,
     ServicesH1,
@@ -16,16 +18,107 @@ import {
     ServicesH2,
     ServicesP
 } from './ServicesElement'
+
 const Services = (props) => {
-const n=props.one
+console.log(data1)
+console.log(data2)
   return (
-    <ServicesContainer id={props.id}>
-        <ServicesH1>our services</ServicesH1>
-        <ServicesWrapper>
-            <ServicesCard>
-                <ServicesIcon src={Icon1}/>
-                <ServicesH2>brow service</ServicesH2>
-                <ServicesP>the best services in Waterford</ServicesP>
+    <div  id={props.id}>
+   <ServicesH1>our services</ServicesH1>
+        <Swiper
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        loop={false}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 6,
+          slideShadows: true,
+        }}
+        //  pagination={true}
+      >
+        {data1.map((item, key) => (
+          <SwiperSlide key={key}>
+            <img src={item.image} alt={item.name} />
+            <h3>{item.name}</h3>
+            <p>{item.testimony}</p>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+      <Swiper
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        loop={false}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 6,
+          slideShadows: true,
+        }}
+        //  pagination={true}
+      >
+        {data2.map((item, key) => (
+          <SwiperSlide key={key}>
+            <img src={item.image} alt={item.name} />
+            <h3>{item.name}</h3>
+            <p>{item.testimony}</p>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+      <Swiper
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        loop={false}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 6,
+          slideShadows: true,
+        }}
+        //  pagination={true}
+      >
+        {data3.map((item, key) => (
+          <SwiperSlide key={key}>
+            <img src={item.image} alt={item.name} />
+            <h3>{item.name}</h3>
+            <p>{item.testimony}</p>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+      <Swiper
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        loop={false}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 6,
+          slideShadows: true,
+        }}
+        //  pagination={true}
+      >
+        {data4.map((item, key) => (
+          <SwiperSlide key={key}>
+            <img src={item.image} alt={item.name} />
+            <h3>{item.name}</h3>
+            <p>{item.testimony}</p>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+            {/* <ServicesCard>
+     <Testimonials/>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon2}/>
@@ -61,10 +154,10 @@ const n=props.one
                 <ServicesIcon src={Icon7}/>
                 <ServicesH2>male grooming</ServicesH2>
                 <ServicesP>Everyone is happy with the result</ServicesP>
-            </ServicesCard>
-        </ServicesWrapper>
+            </ServicesCard> */}
       
-    </ServicesContainer>
+      
+    </div>
   )
 }
 
