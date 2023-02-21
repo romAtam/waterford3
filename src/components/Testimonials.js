@@ -13,12 +13,15 @@ import SwiperCore, { EffectCoverflow, Pagination } from "swiper/core";
 SwiperCore.use([EffectCoverflow, Pagination]);
 
 const Testimonials = () => {
+
+  
   return (
     <section id="testimonials" className="main-testimonials-wrapper">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
+        loop={true}
         slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 50,
