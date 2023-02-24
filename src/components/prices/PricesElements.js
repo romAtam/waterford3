@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import{MdKeyboardArrowLeft} from 'react-icons/md';
-import Icon2 from '../../images/back1.jpg'
+import Icon2 from '../../images/back1.png'
 
 export const MenuItem=styled.div`
 

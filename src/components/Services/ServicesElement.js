@@ -103,3 +103,6 @@ color:wheat;
 text-shadow:-1px 10px 3px black;
 font-family: 'Girassol', cursive;
 `;
+export const Conte = styled.div`
+
+`

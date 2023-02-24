@@ -16,20 +16,20 @@ import {
     ServicesCard,
     ServicesIcon,
     ServicesH2,
-    ServicesP
+    ServicesP,Conte
 } from './ServicesElement'
 
 const Services = (props) => {
 console.log(data1)
 console.log(data2)
   return (
-    <div  id={props.id}>
+    <Conte id={props.id}>
    <ServicesH1>our services</ServicesH1>
         <Swiper
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        loop={false}
+        loop={true}
         slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 50,
@@ -52,7 +52,7 @@ console.log(data2)
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        loop={false}
+        loop={true}
         slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 50,
@@ -75,7 +75,7 @@ console.log(data2)
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        loop={false}
+        loop={true}
         slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 50,
@@ -98,7 +98,7 @@ console.log(data2)
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        loop={false}
+        loop={true}
         slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 50,
@@ -157,7 +157,7 @@ console.log(data2)
             </ServicesCard> */}
       
       
-    </div>
+    </Conte>
   )
 }
 
