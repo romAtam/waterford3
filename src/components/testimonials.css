@@ -19,11 +19,11 @@
   display: grid;
   text-align: center;
   padding: 1.5rem 1rem;
-  background:rgba(6, 41, 37, 0.8);
+  background:rgba(6, 41, 37, 0.1);
   width: 16.75rem;
   height: 16.75rem;
   border-radius:30px;
-  color:grey;
+  color:rgb(208, 17, 17);
   box-shadow:1px 1px 13px 1px cyan;
 }
 .swiper-slide:hover{

@@ -80,7 +80,7 @@ text-align:center;
 color: grey;
 margin-bottom: 64px;
 font-family: 'Encode Sans', sans-serif;
-margin-top:30px;
+//margin-top:30px;
 font-family: 'Girassol', cursive;
 @media screen and (max-width: 480px){
     font-size: 2rem;
@@ -104,5 +104,5 @@ text-shadow:-1px 10px 3px black;
 font-family: 'Girassol', cursive;
 `;
 export const Conte = styled.div`
-
+background: #FFE1E1 ;
 `

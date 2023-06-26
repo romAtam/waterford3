@@ -25,7 +25,7 @@ const Sidebar = ({is0pen, toggle}) => {
       <SidebarWrapper>
  
         <SidebarMenu>
-          <SidebarLink to='offers' onClick={toggle}>contacts</SidebarLink> 
+          <SidebarLink to='about' onClick={toggle}>contacts</SidebarLink> 
           <SidebarLink to='services' onClick={toggle}> our services</SidebarLink>
           <SidebarLink to='home' onClick={toggle}>price list</SidebarLink>
           <SidebarLink to='testimonials' onClick={toggle}>team</SidebarLink>

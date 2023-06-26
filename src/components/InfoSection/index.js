@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '../ButtonElement'
-
+import Map from "../../pages/map"
 import{
     InfoContainer,
     InfoWrapper,
@@ -41,9 +41,16 @@ const InfoSection = ({
                 <Column1>
                     <TextWrapper>
                         <TopLine>{topLine}</TopLine>       
-                        <Heading lightText = {lightText}>{headline}</Heading>
-                        <Subtitle darkText={darkText}>{description}</Subtitle>
-                    <BtnWrap>
+                        <Subtitle lightText = {lightText}>{headline}</Subtitle>
+                        <Subtitle lightText = {lightText}>strictly  by appointment only</Subtitle>
+                        <Subtitle darkText={darkText}> Work hours:<br/>
+Sun,Mon: Closed<br/>
+
+Tue - Wed: 09:30 - 18:00<br/>
+Thu-Fri: 09:30 - 19:00<br/>
+Sat: 09:00 - 17:00</Subtitle>
+<Subtitle lightText = {lightText}> Address: Cork Road, Waterford, Ireland</Subtitle>
+                    {/* <BtnWrap>
                         <Button 
                         to='/signin'
                         smooth="true"
@@ -55,12 +62,13 @@ const InfoSection = ({
                         dark={dark ? 1 : 0}
                         dark2={dark2 ? 1 : 0}
                         >{buttonLabel}</Button>
-                    </BtnWrap>
+                    </BtnWrap> */}
                     </TextWrapper>
                 </Column1>
                 <Column2>
                     <ImgWrap>
-                    <Img src={img} alt={alt} />
+                    <Map/>
+                    {/* <Img src={img} alt={alt} /> */}
                     </ImgWrap>
                 </Column2>
             </InfoRow>
