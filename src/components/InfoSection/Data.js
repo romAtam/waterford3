@@ -1,6 +1,16 @@
 import image1 from "../../images/svg-1.svg"
-import image2 from "../../images/girl.jpeg"
-import image3 from "../../images/face.png"
+import image2 from "../../images/negr.jpeg"
+import image3 from "../../images/shop.png"
+export const objone={
+   one: "offer name",
+   id: 'offers',
+   name: "Offers",
+}
+export const objtwo={
+    one: "offer name",
+    id: 'services',
+    name: "services",
+ }
 export const homeObjOne = {
     id: 'signup',
     lightBg: false,
@@ -23,10 +33,10 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Our gallery',
+    topLine: 'Laura',
     headline: '',
-    description: 'Above everything we want to give you an experience that leaves you feeling fabulous and confident leaving our salon.',
-    buttonLabel: 'Learn More',
+    description: 'Senior Skincare Therapist and Brow Artist',
+    buttonLabel: 'BOOK TO SPECIALIST',
     imgStart: true,
     img: image2,
     alt: 'Piggybank',
@@ -40,10 +50,10 @@ export const homeObjThree = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'the brow lounge',
-    headline: 'We offer a prebonded keratin method a tape in system and clip in services.',
-    description: 'The Honeycomb are known for there exquisite wedding styling and bridal care and this is something we look forward to accommodating you with for your special day.',
-    buttonLabel: 'Get Started',
+    topLine: 'Contact Information:',
+    headline: ' Phone: 083 169 0852',
+    description: 'From body care to self care, we’ve got plenty of wellbeing products to choose',
+    buttonLabel: 'SHOP NOW',
     imgStart: false,
     img: image3,
     alt: 'Paper',

@@ -3,9 +3,9 @@ import { Link as LinkR} from 'react-router-dom'
 import { Link as LinkS} from 'react-scroll'
 
 export const Nav = styled.nav`
-background:${({scrollNav})=>(scrollNav?'#062925':"rgba(0,0,0,1)")};
+background:${({scrollNav})=>(scrollNav?'rgba(0,0,0,0.9)':"rgba(0,0,0,0.7)")};
 height: 80px;
-//margin-top: -80px; 
+margin-top: -80px; 
 display: flex;
 justify-content: center;
 align-items: center;
@@ -32,21 +32,26 @@ max-width: 1100px;
 `
 
 export const NavLogo = styled(LinkR)`
-color: gray;
+color: wheat;
 justify-self: flex-start;
 cursor: pointer;
-font-size: 1.7rem;
+font-size: 2rem;
 align-self:center ;
 margin-left: 24px;
 text-decoration: none;
 font-family: 'Encode Sans', sans-serif;
 transition:all 0.9s ease-in-out;
-font-family: 'Sacramento', cursive;
+font-family: 'Girassol', cursive;
 /* font-family: 'Encode Sans', sans-serif;
 font-family: 'Pacifico', cursive; */
 &:hover{
-    color:wheat;
+    color:orange;
 }
+`
+export const Logo=styled.img`
+margin-top:5px;
+width:60px;
+height:60px;
 `
 
 export const MobileIcon = styled.div`
@@ -117,27 +122,34 @@ align-items:center;
     display: none;  
 }
 `
-export const NavBtnLink = styled(LinkR)`
-border-radius: 1px;
-background: transparent;
+export const NavBtnLink = styled(LinkR  )`
+
+background:transparent;
 white-space: nowrap;
 padding: 0px 22px;
-border-radius:15px;
-color: gray;
+border-radius:14px;
+color: white;
 font-size: 16px;
+letter-spacing: 3px;
 outline: none;
 border: none;
 cursor: pointer;
-transition: all 0.2 ease-in-out;
+//transition: all 0.2 ease-in-out;
 text-decoration: none;
 font-family: 'Encode Sans', sans-serif;
-box-shadow: 1px 1px 2px 1px blue;
+font-weight:100;
+
+border-bottom:1px solid orange;
 
 font-family: 'Sacramento', cursive;
+font-family: 'Girassol', cursive;
 &:hover{
+   
     transition: all 0.2s ease-in-out;
-    box-shadow: 1px 1px 6px 1px blue;
+  box-shadow: 0px 0px 1px 0px cyan; 
     color: wheat;
+    border-bottom:1px solid cyan;
+border-right:none;
 
 }
 `

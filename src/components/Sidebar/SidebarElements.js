@@ -6,6 +6,7 @@ import {FaTimes} from 'react-icons/fa';
 export const SidebarContainer = styled.aside`
 position: fixed;
 z-index: 999;
+
 width: 100%;
 height: 100%;
 background: #062925;
@@ -15,7 +16,7 @@ top: 0;
 left:0;
 transition: 0.3s ease-in-out;
 opacity: ${({is0pen}) => (is0pen? '100%' : '0')};
-top: ${({is0pen}) => (is0pen? '0': '-100%')}
+top: ${({is0pen}) => (is0pen? '0': '-180%')}
 `;
 
 export const CloseIcon = styled(FaTimes)`
@@ -53,16 +54,19 @@ export const SidebarLink = styled(LinkS)`
  justify-content: center;
  font-size: 1.5rem;
  text-decoration: none;
+ box-shadow:1px -1px 5px 1px #000000;
  list-style: none;
  transition: 0.2s ease-in-out;
+ text-shadow:3px 5px 2px black;
  text-decoration: none;
  color: wheat;
  letter-spacing:3px;
  cursor: pointer;
  font-family: 'Girassol', cursive;
  &:hover {
-    color: #01bf71;
+    color: orange;
     transition: 0.2s ease-in-out;
+    box-shadow:1px -1px 5px 1px grey;
  }
 `;
 
@@ -75,20 +79,24 @@ export const SidebarRoute = styled(LinkR)`
 border-radius: 40px;
 background: transparent;
 white-space: nowrap;
-padding: 16px 64px;
-color: wheat;
-font-size: 36px;
+padding: 1px 34px;
+
+font-size: 26px;
 outline: none;
 border: none;
 cursor: pointer;
 transition: all 0.2s ease-in-out;
 text-decoration: none;
-font-family: 'Sacramento', cursive;
-box-shadow: 0px 1px 1px blue;
+border-top: 1px solid grey;
+font-family: 'Girassol', cursive;
+box-shadow: 0px 1px 11px blue;
+color: #FFC0CB ;
 &:hover{
-    transition: all 0.2s ease-in-out;
-   box-shadow: 0px 1px 1px blue;
-    color: wheat;
-
+    transition: all 1.8s ease-in-out;
+   box-shadow: none;
+    color: #FFC0CB ;
+ 
+   border: none; border-top:1px solid red;
+color: grey;
 }
 `;

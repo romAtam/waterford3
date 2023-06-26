@@ -11,26 +11,21 @@ import{
     FormButton,
     Text
 } from './SigninElements';
+import { animateScroll as scroll } from 'react-scroll';
+import { NavLogo } from '../Navbar/NavbarElements';
+import Services from '../Services';
 const SignIn = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+};
+
   return (
-    <>
+
      <Container>
-        <FormWrap>
-            <Icon to='/'dalla></Icon>
-            <FormContent>
-                <Form action = '#'>
-                    <FormH1> Sign in to your account</FormH1>
-                    <FormLabel htmlFor ='for'>Email</FormLabel>
-                    <FormInput type='email' required />
-                    <FormLabel htmlFor='for'>Password</FormLabel>
-                    <FormInput type='password' required />
-                    <FormButton type='submit'>Continue</FormButton>
-                    <Text>Forgot password</Text>
-                </Form>
-            </FormContent>
-        </FormWrap>
+     <NavLogo to='/' onClick={toggleHome}>The Brow Lounge</NavLogo>
+     <Services />  
      </Container> 
-    </>
+
   )
 }
 

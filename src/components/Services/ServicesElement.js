@@ -2,24 +2,22 @@ import styled from 'styled-components'
 
 
 export const ServicesContainer = styled.div`
-height: 1200px;
+height: 1500px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 background: #FFE1E1 ;
 background-size: cover;
-border-top: 10px solid black;
-border-bottom: 10px solid black;
 box-shadow: 1px 10px 10px 1px rgba(0,0,0,1);
 scroll-behavior: smooth;
  @media screen and (max-width: 768px){
-    height: 1950px;
+    height: 2500px;
   
 
 }
 @media screen and (max-width: 480px){
-    height: 1950px;
+    height: 2600px;
 }
 `
 
@@ -66,7 +64,7 @@ transition: all 0.2s ease-in-out;
 
 export const ServicesIcon = styled.img`
 height: 160px;
-width: 160px;
+width: 210px;
 margin-bottom: 10px;
 border-radius:18px;
 box-shadow: 0px 1px 4px 1px grey;
@@ -78,11 +76,12 @@ transition:all 0.8s ease-in-out;
 
 export const ServicesH1 = styled.h1`
 font-size: 3rem;
+text-align:center;
 color: grey;
 margin-bottom: 64px;
 font-family: 'Encode Sans', sans-serif;
-
-font-family: 'Sacramento', cursive;
+//margin-top:30px;
+font-family: 'Girassol', cursive;
 @media screen and (max-width: 480px){
     font-size: 2rem;
 }
@@ -104,3 +103,6 @@ color:wheat;
 text-shadow:-1px 10px 3px black;
 font-family: 'Girassol', cursive;
 `;
+export const Conte = styled.div`
+background: #FFE1E1 ;
+`

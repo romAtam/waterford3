@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import { FaBars } from 'react-icons/fa'
+import LogImage from "../../images/browlogo.png"
 import {IconContext} from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll';
 import {
@@ -11,7 +12,8 @@ import {
     NavItem, 
     NavLinks,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
+    Logo
 } from './NavbarElements'
 const Navbar = ({ toggle }) => {
     const [scrollNav, setScrollNav] = useState(false)
@@ -35,26 +37,27 @@ const Navbar = ({ toggle }) => {
     <IconContext.Provider value={{ color: '#fff'}}>
     <Nav scrollNav = {scrollNav}>
         <NavbarContainer>
-           <NavLogo to='/' onClick={toggleHome}>The Brow Lounge</NavLogo>
+           <NavLogo to='/' onClick={toggleHome}><Logo src={LogImage} alt="LOGO"/></NavLogo>
            <MobileIcon onClick={toggle}>
             <FaBars />
            </MobileIcon>
            <NavMenu>
             <NavItem>
-                <NavLinks to='about' smooth={true} duration={500} spy={true} exact='true' offse={-80}>makeup</NavLinks>
+                <NavLinks to='about' smooth={true} duration={500} spy={true} exact='true' offse={-80}>contact</NavLinks>
             </NavItem>
             <NavItem>
-                <NavLinks to='services' smooth={true} duration={500} spy={true} exact='true' offse={-80}>offers</NavLinks>
+                <NavLinks to='services' smooth={true} duration={500} spy={true} exact='true' offse={-80}>services</NavLinks>
             </NavItem>
             <NavItem>
-                <NavLinks to='home' smooth={true} duration={500} spy={true} exact='true' offse={-80}>brow</NavLinks>
+                <NavLinks to='home' smooth={true} duration={500} spy={true} exact='true' offse={-80}>price-list</NavLinks>
             </NavItem>
             <NavItem>
-                <NavLinks to='signup' smooth={true} duration={500} spy={true} exact='true' offse={-80}>hair</NavLinks>
+       
+                <NavLinks to='testimonials' smooth={true} duration={500} spy={true} exact='true' offse={-80}>team</NavLinks>
             </NavItem>
            </NavMenu>
            <NavBtn>
-            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+            <NavBtnLink to='/signin'>shop</NavBtnLink>
            </NavBtn>
         </NavbarContainer>
     </Nav>

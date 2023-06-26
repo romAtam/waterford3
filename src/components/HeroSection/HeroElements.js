@@ -45,7 +45,7 @@ background: ${({light}) =>(light&&"pink")};
 z-index:1`
 
 export const VideoBg = styled.video`
-width: 50%;
+width: 100%;
 height: 100%;
 -o-object-fit: cover;
 object-fit: cover;
@@ -56,7 +56,7 @@ export const HeroContent = styled.div`
 z-index: 3;
 max-width: 1200px;
 position: absolute;
-padding: 8px 24px;
+padding: 1px 24px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -66,9 +66,10 @@ export const HeroH1 = styled.h1`
 color: pink;
 opacity: 0.8;
 font-size: 48px;
-text-align: center;
+text-align:center;
+//font-family: 'Sacramento', cursive;
 
-font-family: 'Girassol', cursive;
+
 @media screen and (max-width: 768px){
 font-size: 40px;
 }
@@ -85,10 +86,10 @@ font-size: 36px;
 letter-spacing:2px;
 text-shadow: black 1px 0 10px;
 text-align: center;
+font-family: 'Girassol', cursive;
 max-width: 600px;
 color: white;
 opacity: 0.8;
-font-family: 'Sacramento', cursive;
 
 @media screen and (max-width: 768px){
 font-size: 24px;
@@ -102,6 +103,7 @@ font-size: 24px;
 export const HeroBtnWrapper = styled.div`
 margin-top: 32px;
 display: flex;
+width:50%;
 flex-direction: column;
 align-items: center;
 `

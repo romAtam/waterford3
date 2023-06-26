@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 // import { Button } from 'react-scroll';
-import Video from '../../videos/blue.mp4';
+
 import { Button } from '../ButtonElement';
 
 import { 
@@ -32,26 +32,24 @@ const HeroSection = ({vido}) => {
         <VideoBg autoPlay loop muted src= {vido} type='video/mp4'/>
         
       </HeroBg>
-      <HeroContent>
-        <HeroH1>The Brow Lounge</HeroH1>
-        <HeroP>
-        The Brow Lounge is a new chic Beauty Salon located behind the Crystal Lesuire Centre
-        </HeroP>
-        <HeroBtnWrapper>
+      <HeroContent>  
+  <HeroP>PAINLESS THREADING WITH THERAPISTS SPECIALISING IN NATURAL BEAUTY CARE</HeroP>
+     <HeroBtnWrapper>
             <Button 
-            to='signup' onMouseEnter = {onHover}
+            to='/treatment' onMouseEnter = {onHover}
             onMouseLeave={onHover}
             primary='true'
             dark='true'
-            smooth={true} 
+            smooth="true"
             duration={500} 
-            spy={true} 
+            spy="true" 
             exact='true' 
             offse={-80}
             >
-                Get started {hover ? <ArrowForward /> : <ArrowRight /> }
+         price-list {hover ? <ArrowForward /> : <ArrowRight /> }
             </Button>
-        </HeroBtnWrapper>
+        </HeroBtnWrapper>    
+       
       </HeroContent>
     </HeroContainer>
   )

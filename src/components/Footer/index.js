@@ -35,41 +35,41 @@ const Footer = () => {
             <FooterLinksContainer>
                 <FooterLinksWrapper>
                     <FooterLinkItems>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <FooterLink to="/signin">About us</FooterLink>
-                                <FooterLink to="/signin"> How it works</FooterLink>
-                                <FooterLink to="/signin"> Testimonials</FooterLink>
-                                <FooterLink to="/signin"> Careers</FooterLink>
-                                <FooterLink to="/signin"> Investors</FooterLink>
-                                <FooterLink to="/signin"> Terms of Services</FooterLink>
+                            <FooterLinkTitle>Shop</FooterLinkTitle>
+                                <FooterLink to="/">Brow Fix UK</FooterLink>
+                                <FooterLink to="/">Brow Xenna </FooterLink>
+                                <FooterLink to="/"> Biometics Intensive</FooterLink>
+                                <FooterLink to="/"> Hair Well</FooterLink>
+                                <FooterLink to="/"> Pro Tan </FooterLink>
+                                <FooterLink to="/"> Accessories</FooterLink>
                                 </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Contact Us</FooterLinkTitle>
-                                <FooterLink to="/">Contact</FooterLink>
-                                <FooterLink to="/">Support</FooterLink>
-                                <FooterLink to="/">Destinations</FooterLink>
-                                <FooterLink to="/">Sponsorships</FooterLink>
+                                <FooterLink to="/">Phone:+353 1 633 6737</FooterLink>
+                                <FooterLink to="/">info@claudinekingbrows.ie</FooterLink>
+                                <FooterLink to="/">Address: </FooterLink>
+                                <FooterLink to="/">22 William St S, Dublin 2, Ireland</FooterLink>
                         </FooterLinkItems>
                         </FooterLinksWrapper>
                         <FooterLinksWrapper>
                     <FooterLinkItems>
               
-                            <FooterLinkTitle>Videos</FooterLinkTitle>
-                                <FooterLink to="/">Submit Video</FooterLink>
-                                <FooterLink to="/">Ambassadors</FooterLink>
-                                <FooterLink to="/">Ageny</FooterLink>
-                                <FooterLink to="/">Influencer</FooterLink>
+                            <FooterLinkTitle>Gallery</FooterLinkTitle>
+                                <FooterLink to="/">manu/pedi</FooterLink>
+                                <FooterLink to="/">lash&brow</FooterLink>
+                                <FooterLink to="/">facials</FooterLink>
+                                <FooterLink to="/">waxing</FooterLink>
                       
                     </FooterLinkItems>
                     <FooterLinkItems>
                     
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <FooterLink to="/signin">About us</FooterLink>
-                                <FooterLink to="/signin"> How it works</FooterLink>
-                                <FooterLink to="/signin"> Testimonials</FooterLink>
-                                <FooterLink to="/signin"> Careers</FooterLink>
-                                <FooterLink to="/signin"> Investors</FooterLink>
-                                <FooterLink to="/signin"> Terms of Services</FooterLink>
+                            <FooterLinkTitle>OPENING HOURS</FooterLinkTitle>
+                                <FooterLink to="/">Sun,Mon Closed</FooterLink>
+                                <FooterLink to="/">Tue 10a.m.–8p.m.</FooterLink>
+                                <FooterLink to="/">  Wed 10a.m.–8p.m.</FooterLink>
+                                <FooterLink to="/"> Thu 10a.m.–8p.m.</FooterLink>
+                                <FooterLink to="/">Fri 10a.m.–6p.m. </FooterLink>
+                                <FooterLink to="/"> Sat 10a.m.–6p.m.</FooterLink>
                    
                     </FooterLinkItems>
                     </FooterLinksWrapper>
